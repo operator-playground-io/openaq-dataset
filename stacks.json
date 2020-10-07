@@ -1,0 +1,21 @@
+{
+  "title": "OpenAQ Dataset",
+  "description": "OpenAQ Dataset",
+  "logo": "_images/dataset.png",
+  "enabled": true,
+  "language": [
+    "Yaml"
+  ],
+  "document": "data-logging-stack",
+  "stack_id": "openaq_s3_dataset",
+  "type": "Dataset",
+  "categories": [
+    "Public Dataset"
+  ],
+  "has_dataset": true,
+  "has_api": false,
+  "git_url": "",
+  "git_commit": "",
+  "installTime": "3 minutes",
+  "isStacksSaved": true
+}

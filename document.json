@@ -1,0 +1,38 @@
+{
+  "name": "OpenAQ Dataset",
+  "description": "OpenAQ Dataset",
+  "logo": "_images/dataset.png",
+  "has_supporting_content": true,
+  "stack_id": "openaq_s3_dataset",
+  "type": "Dataset",
+  "categories": [
+    "Public Dataset"
+  ],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [
+    {
+      "description": "Get S3 Dataset",
+      "exec": "cd /home/student/bucket && mkdir openaq-fetches && s3fs openaq-fetches /home/student/bucket/openaq-fetches -o passwd_file=/etc/.passwd-s3fs"
+    }
+  ],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "meta": {
+    "Install time": [
+      "3 minutes"
+    ],
+    "Language": [
+      "Yaml"
+    ],
+    "categories": [
+      "Public Dataset"
+    ]
+  },
+  "isDocumentSaved": true
+}

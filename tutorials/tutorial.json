@@ -1,0 +1,17 @@
+{
+  "name": "OpenAQ Guide",
+  "appLayout": "accordion",
+  "appTheme": "g90",
+  "footer": "footer.md",
+  "tutorials": [
+    {
+      "description": "OpenAQ S3 Dataset",
+      "duration": "5 minutes",
+      "tutorial_name": "openaq_tutorial.md",
+      "title": "Open AQ Tutorial"
+    }
+  ],
+  "usefulLinks": [],
+  "demos": [],
+  "isTutorialSaved": true
+}
