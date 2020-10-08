@@ -13,7 +13,7 @@
   "commands": [
     {
       "description": "Get S3 Dataset",
-      "exec": "cd /home/student/bucket && mkdir openaq-fetches && s3fs openaq-fetches /home/student/bucket/openaq-fetches -o passwd_file=/etc/.passwd-s3fs"
+      "exec": "cd /home/student/bucket && mkdir openaq-fetches && goofys openaq-fetches /home/student/bucket/openaq-fetches -o passwd_file=/etc/.passwd-s3fs"
     }
   ],
   "display": [
