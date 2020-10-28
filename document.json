@@ -10,7 +10,10 @@
   ],
   "platform": "Kubernetes",
   "cover": "cover.md",
-  "commands": [],
+  "commands": [ {
+      "description": "Get S3 Dataset",
+      "exec": "cd /home/student/bucket"
+    }],
   "display": [
     {
       "name": "Developer Dashboard",
