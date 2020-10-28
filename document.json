@@ -10,12 +10,7 @@
   ],
   "platform": "Kubernetes",
   "cover": "cover.md",
-  "commands": [
-    {
-      "description": "Get S3 Dataset",
-      "exec": "cd /home/student/bucket && mkdir openaq-fetches && goofys openaq-fetches /home/student/bucket/openaq-fetches"
-    }
-  ],
+  "commands": [],
   "display": [
     {
       "name": "Developer Dashboard",
