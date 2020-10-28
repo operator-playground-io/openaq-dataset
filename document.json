@@ -11,7 +11,7 @@
   "platform": "Kubernetes",
   "cover": "cover.md",
   "commands": [ {
-      "description": "Get S3 Dataset",
+      "description": "Navigate to directory to get S3 bucket",
       "exec": "cd /home/student/bucket"
     }],
   "display": [
