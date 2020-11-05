@@ -10,6 +10,6 @@ Global, aggregated physical air quality data from public data sources provided b
 ### Access the Dataset
 
 ```execute
-cd /home/student/bucket/openaq-fetches
+cd /home/student/projects/openaq-fetches
 ls 
 ```
