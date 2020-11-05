@@ -12,7 +12,7 @@
   "cover": "cover.md",
   "commands": [ {
       "description": "Navigate to directory to get S3 bucket",
-      "exec": "cd /home/student/bucket"
+      "exec": "cd /home/student/projects"
     }],
   "buckets": [ "openaq-fetches" ],
   "display": [
